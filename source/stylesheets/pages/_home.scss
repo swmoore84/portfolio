@@ -12,12 +12,19 @@
 
 .content-header{
   text-align: center;
+  h1{
+    font-family: 'Covered By Your Grace';
+    font-size: 60px;
+  }
+  h2{
+    font-size: 16px;
+  }
 }
 
 .section-header{
   text-align: center;
   h1{
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 
@@ -32,12 +39,51 @@ body{
 }
 
 .project-image{
-  width: 500px;
+  width: 450px;
   img{
-    width: 500px;
+    width: 450px;
   }
 }
 
 .project{
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.project-text{
+  padding: 12px;
+  h1{
+    font-size: 28px;
+    font-family: 'Covered By Your Grace';
+    text-align: center;
+    margin-top: 16px;
+  }
+  p{
+
+  }
+}
+
+h1, h2, h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project-button{
+  text-align: center;
+  margin-top: 24px;
+}
+
+.btn-medium {
+  text-decoration: none;
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 16px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-medium:hover {
+  opacity: 1;
 }
